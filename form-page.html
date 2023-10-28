@@ -3,18 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Form Page</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="form.css">
 </head>
 <body>
     <nav>
         <div><p>FwP</p></div>
         <div class="nav-pages">
             <a href="index.html">Page 1</a>
-            <a href="#">Page 2</a>
-            <a href="#">Page 3</a>
+            <a href="form-page.html">Page 2</a>
+            <a href="list-page.html">Page 3</a>
             <a href="#">Page 4</a>
         </div>
     </nav>
+
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Get in Touch</legend>
+
+            <div class="fullName">
+                <label for="fullName">Full Name:</label>
+                <input type="text" name="fullName" id="fullName">
+            </div>
+            <div class="email">
+                <label for="email">Your Email:</label>
+                <input type="email" name="email" id="email-adress">
+            </div>
+
+            <div class="about">
+                <label for="about-you">About You:</label>
+                <textarea name="about-you" id="about-you"></textarea>
+            </div>
+
+            <div class="working-status">
+                <label for="workingStatus">Are You Working?</label>
+                <input type="checkbox" name="workingStatus" id="workingStatus">
+            </div>
+
+            <div class="submit-btn">
+                <button type="submit" class="submit">Submit</button>
+            </div>
+        </fieldset>
+    </form>
 </body>
 </html>

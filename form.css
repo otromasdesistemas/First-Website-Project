@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #ffe5ec;
+}
+
+.fullName label,
+.email label,
+.about label {
+    display: block;
+    padding: 8px;
+}
+
+form {
+    margin: auto;
+    margin-top: 100px;
+    width: 600px;
+    padding: 10px;
+    background-color: #fed9b7;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 3px solid black;
+    border-radius: 1%;
+}
+
+.submit-btn button{
+    width: 150px;
+    height: 30px;
+    margin: 10px;
+    background-color: #ff9f1c;
+    color: #fed9b7;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.submit-btn button:hover {
+    background-color: #fdfcdc;
+    color: #ff9f1c;
+}
+
+
+
+.working-status {
+    padding: 20px;
+}
+
+textarea {
+    resize: none;
+    width: 300px;
+}
