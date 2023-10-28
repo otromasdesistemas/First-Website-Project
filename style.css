@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*NAVBAR*/
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #dda15e;
+}
+
+nav p {
+    font-size: 32px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia;
+    color: wheat;
+}
+
+.nav-pages {
+    display: flex;
+    gap: 50px;
+}
+
+.nav-pages a {
+    font-family: Cambria, Cochin, Georgia;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    background-color: #bc6c25;
+    padding: 6px;
+    border-radius: 10%;
+}
+
+.nav-pages a:hover {
+    color: black;
+    border-radius: 20%;
+}
+
+/*NAVBAR*/
+
+/*MAIN CONTENT*/
+
+main {
+    text-align: center;
+    background-color: #fefae0;
+    font-family: Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    padding: 40px;
+    color: black;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+
+.section-1,
+.section-2 {
+    display: inline-block;
+    width: 400px;
+    margin: 60px;
+}
+
+.img {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.img img {
+    display: inline-block;
+    width: 400px;
+    height: 300px;
+    margin: 30px;
+}
+
+.section-3 {
+    margin: auto;
+    width: 800px;
+}
+
+main div p {
+    border-radius: 5%;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    background-color: #bc6c25;
+}
+
+main div h2 {
+    font-style: italic;
+    font-weight: 300;
+}
