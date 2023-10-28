@@ -1,0 +1,27 @@
+body {
+    background-color: #fbf8cc;
+}
+
+h1 {
+    text-align: center;
+}
+
+.wide-img  img,
+.down-img img{
+    width: 400px;
+    border: 2px solid black;
+    margin: 20px;
+    border-radius: 5%;
+}
+
+
+.wide-img  img:hover,
+.down-img img:hover{
+    box-shadow: 0 0 20px rgba(255, 105, 180, 0.8);
+}
+
+.wide-img,
+.down-img {
+    display: flex;
+    justify-content: center;
+}
